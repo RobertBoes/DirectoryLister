@@ -134,6 +134,12 @@
 
                         <?php endif; ?>
 
+                        <?php if (true): ?>
+                            <a href="<?php echo $fileInfo['file_qr'] ?>" class="file-qr-button" target="_blank">
+                                <i class="fa fa-qrcode"></i>
+                            </a>
+                        <?php endif; ?>
+
                     </li>
                 <?php endforeach; ?>
 

@@ -59,7 +59,8 @@ body.breadcrumb-fixed {
 }
 
 .file-info-button,
-.web-link-button {
+.web-link-button,
+.file-qr-button {
     display: inline-block;
     cursor: pointer;
     margin-left: 100%;
@@ -68,8 +69,13 @@ body.breadcrumb-fixed {
     top: 4px;
 }
 
+.file-qr-button {
+    margin-left: calc(100% + 35px);
+}
+
 .web-link-button i,
-.file-info-button i {
+.file-info-button i,
+.file-qr-button i {
     color: #999;
 }
 
